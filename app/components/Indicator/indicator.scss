@@ -1,0 +1,8 @@
+.indicators__container {
+  top: 250px;
+  position: absolute;
+
+  @media (min-width: 768px) {
+    top: 350px;
+  }
+}
