@@ -99,7 +99,7 @@
     "jsdom": "11.6.2",
     "rimraf": "2.6.2",
     "supertest": "3.0.0",
-    "webpack-dev-server": "3.1.1",
+    "webpack-dev-server": "3.1.11",
     "webpack-merge": "4.1.2",
     "yargs": "11.0.0"
   }
