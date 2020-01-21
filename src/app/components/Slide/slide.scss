@@ -1,0 +1,28 @@
+
+.slide__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: AktivGrotesk;
+  font-weight: 300;
+  color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: rgba(56, 56, 56, 0.5);
+  position: relative;
+  border: 1px solid #ffffff80;
+
+  @media (min-width: 768px) {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.slide__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

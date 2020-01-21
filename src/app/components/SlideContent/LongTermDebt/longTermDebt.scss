@@ -1,0 +1,12 @@
+@import "../../../../styles/utils/colours";
+
+.longterm-debt__amount {
+  font-size: 3.5rem;
+  color: $debt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.longterm-debt__status {
+  color: $debt-status;
+}

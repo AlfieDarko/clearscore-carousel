@@ -1,0 +1,36 @@
+
+.carousel__slide--active {
+  display: initial;
+}
+
+.carousel__slide--hidden {
+  display: none;
+}
+
+/* This fires as soon as the element enters the DOM */
+.carousel__slide-enter {
+  transition: all 500ms;
+}
+
+/* This is where we can add the transition*/
+.carousel__slide-enter-active {
+  transition: all 500ms;
+  transform: translateX(400px);
+  opacity: 1;
+}
+
+/* This fires as soon as the this.state.showList is false */
+.carousel__slide-exit {
+  transition: all 500ms;
+
+  opacity: 0;
+}
+
+/* fires as element leaves the DOM*/
+.carousel__slide-exit-active {
+  color: transparent;
+  opacity: 0;
+  display: none;
+  transform: translateX(400px);
+  transition: all 500ms;
+}

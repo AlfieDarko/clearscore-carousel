@@ -1,0 +1,30 @@
+@import "../../../../styles/utils/colours";
+
+.credit-score__container {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background: rgba(43, 43, 43, 0.5);
+  position: relative;
+  justify-content: center;
+}
+
+.credit-score__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit-score__score-text--large {
+  color: $score;
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.credit-score__status-text {
+  color: $score;
+}
