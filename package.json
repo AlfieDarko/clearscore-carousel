@@ -51,7 +51,7 @@
     "koa-proxy": "0.9.0",
     "koa-router": "7.4.0",
     "koa-static": "4.0.2",
-    "node-fetch": "2.1.1",
+    "node-fetch": "2.6.1",
     "node-hook": "1.0.0",
     "node-sass": "4.8.2",
     "nodemon": "1.17.2",
